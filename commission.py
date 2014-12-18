@@ -6,4 +6,10 @@ def calcStoveCommission(units):
         
     return comission
     
-    
+def refrigeratorCommission(units):
+    if units <=12:
+        comission  = 0
+    else:
+        commission = 0.035 * units * 250 
+        
+    return comission    
